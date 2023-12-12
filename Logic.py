@@ -13,8 +13,8 @@ def srt (self, key = None, reverse = False):
                 if key(self[i]) > key(self[j]):
                     self[i], self[j] = self[j], self[i]
     return self
-
 #Filter a list of elements
+#maleu mama si maicuta mea
 def filter(self, key = None):
     if key == None:
         key = lambda x : x
